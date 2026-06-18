@@ -90,10 +90,24 @@ export const ProjectCardKunlun: React.FC<{ onOpen: () => void }> = ({ onOpen }) 
           </span>
         </div>
 
-        <div className="flex justify-between items-center pt-5 border-t border-white/5">
-          <span className="text-[11px] text-slate-500 font-mono tracking-wide">2026 / 声音可视化互动艺术</span>
-          <div className="w-11 h-11 rounded-full bg-white/5 border border-white/8 flex items-center justify-center group-hover:bg-white/15 group-hover:border-white/20 transition-all duration-300">
-            <Eye className="w-5 h-5 text-slate-300 group-hover:scale-105 group-hover:text-white transition-all" />
+        <div className="flex flex-wrap gap-4 justify-between items-center pt-5 border-t border-[#ffffff]/5">
+          <div className="flex flex-col gap-1">
+            <span className="text-[11px] text-slate-500 font-mono tracking-wide">2026 / 声音可视化互动艺术</span>
+            <span className="text-[10px] text-slate-600 font-mono">Original Concept Exhibition</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://999-be2.pages.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="text-xs text-[#60A5FA] font-bold tracking-wider font-mono border border-[#60A5FA]/30 px-4 py-2 rounded-full bg-[#60A5FA]/5 flex items-center gap-1.5 hover:bg-[#60A5FA]/20 hover:border-[#60A5FA]/60 hover:text-white transition-all duration-300 shadow-[0_0_15px_rgba(96,165,250,0.15)] active:scale-95 relative z-20 cursor-pointer"
+            >
+              <span>访问原版作品 📁</span>
+            </a>
+            <div className="w-11 h-11 rounded-full bg-white/5 border border-white/8 flex items-center justify-center group-hover:bg-white/15 group-hover:border-white/20 transition-all duration-300">
+              <Eye className="w-5 h-5 text-slate-300 group-hover:scale-105 group-hover:text-white transition-all" />
+            </div>
           </div>
         </div>
       </div>
