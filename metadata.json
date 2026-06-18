@@ -1,0 +1,6 @@
+{
+  "name": "Jiayi Liu Art and Technology Portfolio",
+  "description": "Interactive graduation portfolio of Jiayi Liu showcasing media art installation concept designs, 3D interactive galleries, and generative canvas systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
